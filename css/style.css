@@ -46,3 +46,27 @@
     font-size: 12px;
     line-height: 20px;
 }
+
+.frm-dimension {
+    width: 55vw;
+}
+
+.color-input::placeholder {
+    color: rgb(148, 150, 155);
+}
+
+textarea::placeholder {
+    font-size: 20px;
+}
+
+.style-lbl {
+    font-size: 13px;
+}
+
+.btn-color-custom {
+    background-color: #92dd30;
+}
+
+.btn-color-custom:hover {
+    background-color: #5cc02d;
+}
