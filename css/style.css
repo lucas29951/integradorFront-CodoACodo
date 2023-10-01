@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ban-img {
+    max-height: 80vh;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.custom-caption {
+    top: 10vh;
+    left: 57vw;
+    right: 5vw;
+}
+
+.margin-custom {
+    margin-top: 13vh;
+}
+
+.custom-color-btn {
+    background-color: #28af47;
+}
+
+.custom-color-btn:hover {
+    background-color: #3be062;
+}
