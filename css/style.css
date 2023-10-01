@@ -70,3 +70,23 @@ textarea::placeholder {
 .btn-color-custom:hover {
     background-color: #5cc02d;
 }
+
+.color-grad {
+    background-image: linear-gradient(90deg,#1d3744,60%,#1d5271); 
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+    width: 80px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: rgb(173, 171, 171);
+}
