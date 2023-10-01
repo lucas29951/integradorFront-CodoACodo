@@ -26,3 +26,9 @@
 .custom-color-btn:hover {
     background-color: #3be062;
 }
+
+.style-po {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: rgb(85, 85, 85);
+}
