@@ -32,3 +32,17 @@
     font-size: 13px;
     color: rgb(85, 85, 85);
 }
+
+.sect-img {
+    max-height: 71vh;
+    object-fit: cover;
+}
+
+.sect-txt {
+    background-color: #343c44;
+}
+
+.style-pi {
+    font-size: 12px;
+    line-height: 20px;
+}
