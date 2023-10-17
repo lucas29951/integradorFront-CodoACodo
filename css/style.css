@@ -91,6 +91,9 @@ textarea::placeholder {
     color: rgb(173, 171, 171);
 }
 
+.ctn-dimension {
+    width: 65vw;
+}
 
 /* Media Query para Smartphones */
 @media (max-width: 576px) {
