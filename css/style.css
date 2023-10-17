@@ -175,6 +175,15 @@ textarea::placeholder {
         margin-left: 20px;
         width: 100px;
     }
+
+    .ctn-dimension {
+        width: 100vw;
+        margin-top: 25px;
+    }
+
+    .ctn-section {
+        margin-top: 50px;
+    }
 }
 
 /* Media Query para Escritorios Grandes */
