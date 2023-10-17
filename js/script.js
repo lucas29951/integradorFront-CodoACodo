@@ -20,3 +20,17 @@ document.getElementById("resumen").addEventListener("click", function () {
     var alertDiv = document.querySelector(".alert");
     alertDiv.textContent = "Total a Pagar: $" + precioTotal;
 });
+
+document.getElementById("borrar").addEventListener("click", function () {
+
+    document.getElementById("nombre").value = "";
+    document.getElementById("apellido").value = "";
+    document.getElementById("correo").value = "";
+    document.getElementById("cantidad").value = "";
+
+    var selectElement = document.querySelector("select");
+    selectElement.selectedIndex = 0;
+
+    var alertDiv = document.querySelector(".alert");
+    alertDiv.textContent = "Total a Pagar: $";
+});
